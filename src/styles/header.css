@@ -1,0 +1,140 @@
+.page-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 1000px;
+    padding:  28px;
+    border: 3px solid #163300;
+    border-radius: 100px;
+    align-self: center;
+  }
+  
+  .search-bar-input {
+    border: none;
+    width: 80%;
+    font-size: 20px;
+    color: black;
+  }
+  
+  .search-bar-input:focus{
+    border: none;
+    outline: none;
+  }
+
+  .search-icon {
+    margin-left: 20px;
+    font-size: 17.79px;
+    color: black;
+    font-weight: 600;
+  }
+  
+  .clear-icon {
+    position: absolute;
+    left: 31px;
+    font-size: 17.79px;
+    color: #fff;
+    background: #868685;
+    border-radius: 50%;
+    padding: 4px;
+    cursor: pointer;
+  }
+  
+  .headers-link-container{
+    padding: 28px 0;
+  }
+
+  .header-link{
+    color: #185039;
+    font-size: 16px;
+  }
+
+  .Chevron-icon{
+    color: #777777;
+    margin: 0 10.77px;
+  }
+  
+  @media (max-width: 1400px) {
+    .search-bar {
+      width: 60%;
+      padding: 0.5% 0.5%;
+      border: 2px solid #163300;
+    }
+  
+    .search-bar-input {
+      font-size: 1.5vw;
+    }
+  
+    .search-icon {
+      font-size: 1.2vw;
+      margin-left: 1.5%;
+    }
+  
+    .clear-icon {
+      font-size: 0.9vw;
+      left: 3.5%;
+      padding: 0.3vw;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .search-bar {
+        width: 60%;
+        padding: 1% 1%;
+    }
+  
+    .search-bar-input {
+        font-size: 2.4vw;
+    }
+  
+    .search-icon {
+        font-size: 2.4vw;
+        margin-left: 2%;
+    }
+  
+    .clear-icon {
+        font-size: 1.5vw;
+      left: 2%;
+      padding: 0.6vw;
+    }
+    .header-link{
+      font-size: 16px;
+    }
+
+    .Chevron-icon{
+      margin: 0 7px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .search-bar {
+      width: 70%;
+      padding: 2%;
+    }
+  
+    .search-bar-input {
+        font-size: 2.4vw;
+    }
+  
+    .search-icon {
+        font-size: 2.0vw;
+      margin-left: 3.5%;
+    }
+  
+    .clear-icon {
+        font-size: 1.8vw;
+        left: 4.5%;
+        padding: 0.8vw;
+    }
+
+    .headers-link-container{
+      padding: 18px 0;
+    }
+  }
+  

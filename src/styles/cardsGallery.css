@@ -1,0 +1,21 @@
+.cards-gallery {
+    display: grid;
+    gap: 24px;
+    margin: 36px 0;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+  }
+  
+  @media (max-width: 991px) {
+    .cards-gallery {
+      grid-template-columns: repeat(2, 1fr); 
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .cards-gallery {
+        margin: 5px;
+      grid-template-columns: 1fr;
+
+    }
+  }
+  
